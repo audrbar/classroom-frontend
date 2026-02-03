@@ -296,7 +296,7 @@ const SubjectsShow = () => {
           <Badge variant="secondary">{details.totals.classes}</Badge>
         </CardHeader>
         <CardContent>
-          <DataTable table={classesTable} paginationVariant="simple" />
+          <DataTable table={classesTable} />
         </CardContent>
       </Card>
 
@@ -306,7 +306,7 @@ const SubjectsShow = () => {
             <CardTitle>Teachers</CardTitle>
           </CardHeader>
           <CardContent>
-            <DataTable table={teachersTable} paginationVariant="simple" />
+            <DataTable table={teachersTable} />
           </CardContent>
         </Card>
 
@@ -315,7 +315,7 @@ const SubjectsShow = () => {
             <CardTitle>Students</CardTitle>
           </CardHeader>
           <CardContent>
-            <DataTable table={studentsTable} paginationVariant="simple" />
+            <DataTable table={studentsTable} />
           </CardContent>
         </Card>
       </div>

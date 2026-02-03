@@ -399,7 +399,7 @@ const DepartmentShow = () => {
           <Badge variant="secondary">{details.totals.subjects}</Badge>
         </CardHeader>
         <CardContent>
-          <DataTable table={subjectsTable} paginationVariant="simple" />
+          <DataTable table={subjectsTable} />
         </CardContent>
       </Card>
 
@@ -409,7 +409,7 @@ const DepartmentShow = () => {
           <Badge variant="secondary">{details.totals.classes}</Badge>
         </CardHeader>
         <CardContent>
-          <DataTable table={classesTable} paginationVariant="simple" />
+          <DataTable table={classesTable} />
         </CardContent>
       </Card>
 
@@ -419,7 +419,7 @@ const DepartmentShow = () => {
             <CardTitle>Teachers</CardTitle>
           </CardHeader>
           <CardContent>
-            <DataTable table={teachersTable} paginationVariant="simple" />
+            <DataTable table={teachersTable} />
           </CardContent>
         </Card>
 
@@ -428,7 +428,7 @@ const DepartmentShow = () => {
             <CardTitle>Students</CardTitle>
           </CardHeader>
           <CardContent>
-            <DataTable table={studentsTable} paginationVariant="simple" />
+            <DataTable table={studentsTable} />
           </CardContent>
         </Card>
       </div>
